@@ -267,3 +267,74 @@ a {
     grid-template-columns: 1fr;
   }
 }
+.page-hero {
+  background: linear-gradient(135deg, #e8f8ff, #bfefff);
+  padding: 100px 6%;
+  text-align: center;
+}
+
+.page-hero h1 {
+  font-size: 52px;
+  color: #1f3b4d;
+  margin-bottom: 15px;
+}
+
+.page-hero p {
+  font-size: 20px;
+  color: #5d7480;
+}
+
+.filter-box {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr auto;
+  gap: 12px;
+  margin-bottom: 45px;
+  box-shadow: 0 15px 35px rgba(74, 174, 219, 0.12);
+}
+
+.filter-box input,
+.filter-box select {
+  padding: 15px;
+  border: 1px solid #dce8ef;
+  border-radius: 12px;
+  outline: none;
+}
+
+.filter-box button {
+  background: #4aaedb;
+  color: white;
+  border: none;
+  padding: 15px 28px;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.villa-info ul {
+  margin: 15px 0;
+  padding-left: 18px;
+  color: #5d7480;
+}
+
+.detail-btn {
+  display: inline-block;
+  margin-top: 18px;
+  background: #4aaedb;
+  color: #ffffff;
+  padding: 12px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+@media (max-width: 900px) {
+  .filter-box {
+    grid-template-columns: 1fr;
+  }
+
+  .page-hero h1 {
+    font-size: 38px;
+  }
+}
