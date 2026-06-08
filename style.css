@@ -363,3 +363,35 @@ background:#4aaedb;
 color:white;
 border-radius:30px;
 }
+.region-card{
+background:#fff;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 10px 25px rgba(74,174,219,.12);
+}
+
+.region-card img{
+width:100%;
+height:250px;
+object-fit:cover;
+}
+
+.region-card h3{
+padding:20px 20px 10px;
+font-size:24px;
+}
+
+.region-card p{
+padding:0 20px;
+color:#5d7480;
+margin-bottom:20px;
+}
+
+.region-card a{
+display:inline-block;
+margin:0 20px 20px;
+background:#4aaedb;
+color:white;
+padding:12px 22px;
+border-radius:30px;
+}
