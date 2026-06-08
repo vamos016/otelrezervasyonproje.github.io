@@ -1,0 +1,88 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#f7fcff;
+}
+
+header{
+background:white;
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+.logo img{
+height:80px;
+}
+
+nav a{
+text-decoration:none;
+margin:0 10px;
+color:#4aaedb;
+font-weight:bold;
+}
+
+.hero{
+height:600px;
+background:linear-gradient(
+135deg,
+#e8f8ff,
+#bfefff
+);
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero h1{
+font-size:60px;
+color:#1f3b4d;
+}
+
+.hero p{
+font-size:22px;
+margin:15px 0;
+}
+
+.hero button{
+padding:15px 35px;
+border:none;
+background:#4aaedb;
+color:white;
+border-radius:10px;
+cursor:pointer;
+}
+
+.villas{
+padding:80px;
+}
+
+.card{
+background:white;
+width:300px;
+padding:15px;
+border-radius:15px;
+box-shadow:0 0 15px rgba(0,0,0,.08);
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+footer{
+background:#4aaedb;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:50px;
+}
