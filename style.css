@@ -481,3 +481,41 @@ border-radius:30px;
     grid-template-columns: 1fr;
   }
 }
+.blog-hero{
+padding:120px 6%;
+text-align:center;
+background:linear-gradient(135deg,#e8f8ff,#bfefff);
+}
+
+.blog-hero h1{
+font-size:54px;
+margin-bottom:15px;
+}
+
+.blog-hero p{
+color:#5d7480;
+}
+
+.blog-detail{
+max-width:1000px;
+margin:auto;
+padding:80px 6%;
+line-height:1.8;
+}
+
+.blog-detail img{
+width:100%;
+border-radius:20px;
+margin-bottom:40px;
+}
+
+.blog-detail h2{
+margin-top:30px;
+margin-bottom:15px;
+color:#1f3b4d;
+}
+
+.blog-detail p{
+color:#5d7480;
+margin-bottom:20px;
+}
