@@ -519,3 +519,77 @@ color:#1f3b4d;
 color:#5d7480;
 margin-bottom:20px;
 }
+.contact-section{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+padding:80px 6%;
+}
+
+.contact-card{
+background:#fff;
+padding:20px;
+border-radius:15px;
+margin-bottom:15px;
+box-shadow:0 10px 25px rgba(74,174,219,.12);
+}
+
+.contact-card a{
+color:#4aaedb;
+font-weight:bold;
+}
+
+.contact-form{
+background:#fff;
+padding:30px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(74,174,219,.12);
+}
+
+.contact-form form{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.contact-form input,
+.contact-form textarea{
+padding:15px;
+border:1px solid #dce8ef;
+border-radius:12px;
+outline:none;
+}
+
+.contact-form textarea{
+height:180px;
+resize:none;
+}
+
+.contact-form button{
+background:#4aaedb;
+color:white;
+border:none;
+padding:15px;
+border-radius:12px;
+font-weight:bold;
+cursor:pointer;
+}
+
+.map-section{
+padding:0 6% 80px;
+}
+
+.map-section iframe{
+width:100%;
+height:450px;
+border:none;
+border-radius:20px;
+}
+
+@media(max-width:900px){
+
+.contact-section{
+grid-template-columns:1fr;
+}
+
+}
