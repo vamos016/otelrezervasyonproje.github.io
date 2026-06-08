@@ -1,58 +1,131 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>VillaMare</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VillaMare | Kiralık Villa Tatili</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<header>
-    <div class="logo">
-        <img src="logo.png" alt="VillaMare">
-    </div>
+<header class="header">
+  <a href="index.html" class="logo-area">
+    <img src="logo.png" alt="VillaMare Logo">
+    <span>VillaMare</span>
+  </a>
 
-    <nav>
-        <a href="#">Ana Sayfa</a>
-        <a href="#">Kiralık Villalar</a>
-        <a href="#">Villa Tipleri</a>
-        <a href="#">Bölgeler</a>
-        <a href="#">Fırsat Villaları</a>
-        <a href="#">Kurumsal</a>
-        <a href="#">Yardım & Destek</a>
-        <a href="#">Blog</a>
-        <a href="#">İletişim</a>
-    </nav>
+  <nav class="navbar">
+    <a href="index.html">Ana Sayfa</a>
+    <a href="kiralik-villalar.html">Kiralık Villalar</a>
+    <a href="villa-tipleri.html">Villa Tipleri</a>
+    <a href="bolgeler.html">Bölgeler</a>
+    <a href="firsat-villalari.html">Fırsat Villaları</a>
+    <a href="kurumsal.html">Kurumsal</a>
+    <a href="yardim-destek.html">Yardım Destek</a>
+    <a href="blog.html">Blog</a>
+    <a href="iletisim.html" class="nav-btn">İletişim</a>
+  </nav>
 </header>
 
 <section class="hero">
-    <h1>Hayalinizdeki Villayı Keşfedin</h1>
-    <p>Lüks ve özel kiralık villalar</p>
-    <button>Villaları İncele</button>
+  <div class="hero-content">
+    <span class="badge">Buz mavisi tatil deneyimi</span>
+    <h1>Hayalindeki villayı VillaMare ile keşfet</h1>
+    <p>
+      Deniz manzaralı, jakuzili, balayı ve muhafazakar kiralık villalarla
+      unutulmaz bir tatil seni bekliyor.
+    </p>
+
+    <div class="search-box">
+      <input type="text" placeholder="Bölge seçiniz">
+      <input type="date">
+      <input type="date">
+      <select>
+        <option>Kişi Sayısı</option>
+        <option>2 Kişi</option>
+        <option>4 Kişi</option>
+        <option>6 Kişi</option>
+        <option>8+ Kişi</option>
+      </select>
+      <button>Villa Ara</button>
+    </div>
+  </div>
 </section>
 
-<section class="villas">
+<section class="section">
+  <div class="section-title">
+    <span>Popüler</span>
     <h2>Öne Çıkan Villalar</h2>
+  </div>
 
-    <div class="card">
-        <img src="villa1.jpg">
-        <h3>Villa Crystal</h3>
+  <div class="villa-grid">
+    <div class="villa-card">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="">
+      <div class="villa-info">
+        <h3>Villa Blue Mare</h3>
         <p>Kaş / Kalkan</p>
-        <span>₺7.500 / Gece</span>
+        <strong>₺7.500 / Gece</strong>
+      </div>
     </div>
 
-    <div class="card">
-        <img src="villa2.jpg">
-        <h3>Villa Blue Sea</h3>
+    <div class="villa-card">
+      <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227" alt="">
+      <div class="villa-info">
+        <h3>Villa Ice Pearl</h3>
         <p>Fethiye</p>
-        <span>₺6.900 / Gece</span>
+        <strong>₺6.900 / Gece</strong>
+      </div>
     </div>
 
+    <div class="villa-card">
+      <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9" alt="">
+      <div class="villa-info">
+        <h3>Villa Royal Sea</h3>
+        <p>Bodrum</p>
+        <strong>₺9.250 / Gece</strong>
+      </div>
+    </div>
+  </div>
 </section>
 
-<footer>
-    <p>© 2026 VillaMare</p>
+<section class="section light">
+  <div class="section-title">
+    <span>Kategoriler</span>
+    <h2>Villa Tipleri</h2>
+  </div>
+
+  <div class="type-grid">
+    <a href="villa-tipleri.html">Balayı Villaları</a>
+    <a href="villa-tipleri.html">Muhafazakar Villalar</a>
+    <a href="villa-tipleri.html">Jakuzili Villalar</a>
+    <a href="villa-tipleri.html">Deniz Manzaralı Villalar</a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-title">
+    <span>Bölgeler</span>
+    <h2>Popüler Tatil Bölgeleri</h2>
+  </div>
+
+  <div class="region-grid">
+    <div>Kaş</div>
+    <div>Kalkan</div>
+    <div>Fethiye</div>
+    <div>Bodrum</div>
+    <div>Sapanca</div>
+    <div>Marmaris</div>
+  </div>
+</section>
+
+<section class="cta">
+  <h2>Tatilini şimdi planla</h2>
+  <p>VillaMare ile güvenli, hızlı ve kolay villa rezervasyonu.</p>
+  <a href="iletisim.html">Rezervasyon İçin İletişime Geç</a>
+</section>
+
+<footer class="footer">
+  <p>© 2026 VillaMare. Tüm hakları saklıdır.</p>
 </footer>
 
 </body>
