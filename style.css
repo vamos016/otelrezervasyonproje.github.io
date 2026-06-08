@@ -648,3 +648,36 @@ grid-template-columns:1fr;
     grid-template-columns: 1fr;
   }
 }
+.support-section {
+  padding: 80px 6%;
+}
+
+.support-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.support-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(74, 174, 219, 0.12);
+}
+
+.support-card h3 {
+  color: #4aaedb;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.support-card p {
+  color: #5d7480;
+  line-height: 1.7;
+}
+
+@media(max-width:900px) {
+  .support-grid {
+    grid-template-columns: 1fr;
+  }
+}
