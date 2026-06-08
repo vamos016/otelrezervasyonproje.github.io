@@ -395,3 +395,35 @@ color:white;
 padding:12px 22px;
 border-radius:30px;
 }
+.deal-card {
+  position: relative;
+}
+
+.deal-badge {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  background: #ff5c5c;
+  color: #ffffff;
+  padding: 9px 15px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  z-index: 2;
+}
+
+.price-box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.price-box del {
+  color: #9aaab3;
+  font-size: 16px;
+}
+
+.price-box strong {
+  color: #4aaedb;
+  font-size: 21px;
+}
